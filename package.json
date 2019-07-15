@@ -22,7 +22,11 @@
     "bigint",
     "sqrt",
     "isqrt",
-    "bigint-sqrt"
+    "bigint-sqrt",
+    "native bigint",
+	"integer square root",
+	"square root",
+	"integer sqrt"
   ],
   "author": "Ekaterina Momot <y-kate@ukr.net>",
   "contributors": [
