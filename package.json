@@ -1,0 +1,36 @@
+{
+  "name": "bigint-isqrt",
+  "version": "0.1.0",
+  "description": "Square root of BigInts",
+  "main": "main.js",
+  "directories": {
+    "test": "./node_modules/mocha/bin/mocha -R spec --check-leaks test/*-test.js --timeout 100000"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "~3.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aisse-258/bigint-isqrt.git"
+  },
+  "keywords": [
+    "bigint",
+    "bigint-isqrt",
+    "sqrt",
+    "bigint",
+    "sqrt",
+    "isqrt",
+    "bigint-sqrt"
+  ],
+  "author": "Ekaterina Momot <y-kate@ukr.net>",
+  "contributors": [
+	"Nikolai Avdeev <nickkolok@mail.ru>"
+  ],
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Aisse-258/bigint-isqrt/issues"
+  },
+  "homepage": "https://github.com/Aisse-258/bigint-isqrt#readme"
+}
