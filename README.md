@@ -1,7 +1,7 @@
 # bigint-isqrt
 ======================
 
-[![NPM](https://nodei.co/npm/bigint-json-native.png?downloads=true&stars=true)](https://nodei.co/npm/bigint-isqrt/)
+[![NPM](https://nodei.co/npm/bigint-isqrt.png?downloads=true&stars=true)](https://nodei.co/npm/bigint-isqrt/)
 
 ======================
 
