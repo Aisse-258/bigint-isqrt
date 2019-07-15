@@ -1,6 +1,6 @@
 {
   "name": "bigint-isqrt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Square root of BigInts",
   "main": "main.js",
   "directories": {
