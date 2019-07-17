@@ -4,12 +4,15 @@
   "description": "Square root of BigInts",
   "main": "main.js",
   "directories": {
-    "test": "./node_modules/mocha/bin/mocha -R spec --check-leaks test/*-test.js --timeout 100000"
+    "test": "test"
   },
   "dependencies": {},
   "devDependencies": {
     "chai": "^1.9.1",
     "mocha": "~3.5.3"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec --check-leaks test/*-test.js --timeout 100000"
   },
   "repository": {
     "type": "git",
