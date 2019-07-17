@@ -3,6 +3,10 @@ var sqrt = function (value) {
         return value;
     }
 
+	if (value < 16n) {
+		return BigInt(Math.floor(Math.sqrt(Number(value))));
+	}
+	
     if(value < (1n << 52n)){
         var x1 = BigInt(Math.floor(Math.sqrt(Number(value))))-3n;
     } else {
