@@ -8,6 +8,8 @@ describe("Testing sqrt(value) function", function(){
 	
     it("Should return square root of big numbers", function(done){
         expect(sqrt(BigInt('0'))).to.equal(BigInt('0'));
+        expect(sqrt(BigInt('4'))).to.equal(BigInt('2'));
+        expect(sqrt(BigInt('9'))).to.equal(BigInt('3'));
         expect(sqrt(BigInt('24'))+1n).to.equal(BigInt('5'));
         expect(sqrt(BigInt('2359296'))).to.equal(BigInt('1536'));
         expect(sqrt(BigInt('54866395443885995655625'))).to.equal(BigInt('234235768925'));
