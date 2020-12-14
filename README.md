@@ -3,6 +3,8 @@
 
 [![NPM](https://nodei.co/npm/bigint-isqrt.png?downloads=true&stars=true)](https://nodei.co/npm/bigint-isqrt/)
 
+A function that returns the square root (or it's [floor](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions)-ed value if the root is not an integer) of a [`BigInt`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt) number.
+
 ======================
 
 example:
