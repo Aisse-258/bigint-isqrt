@@ -1,3 +1,8 @@
+
+var bitLength = function (value) {
+	return BigInt(value.toString(16).length * 4);
+};
+
 var sqrt = function (value) {
 	if (value < 2n) {
 		return value;
@@ -8,10 +13,12 @@ var sqrt = function (value) {
 	}
 	
 	if(value < (1n << 52n)){
-		var x1 = BigInt(Math.floor(Math.sqrt(Number(value))))-3n;
-	} else {
-		var x1 = (1n << 52n) - 2n;
+		return BigInt(Math.floor(Math.sqrt(Number(value) + 0.5)));
 	}
+	let e = bitLength(value);
+	let quarter = ((e + 2n) / 4n);
+	let half = quarter * 2n;
+	let x1 = (sqrt(value >> half) + 1n) << quarter;
 
 	let x0 = -1n;
 	while((x0 !== x1 && x0 !== (x1 - 1n))){
