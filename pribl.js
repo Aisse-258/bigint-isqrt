@@ -20,7 +20,7 @@ var sqrt1 = function (value, pribl) {
 		x1 = ((value / x0) + x0) >> 1n;
 //		count++;
 	}
-//	console.log(count);
+//	console.log(count,x0);
 	return x0;
 }
 
