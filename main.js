@@ -10,7 +10,12 @@ var sqrt = function (value) {
 	if(value < (1n << 52n)){
 		var x1 = BigInt(Math.floor(Math.sqrt(Number(value))))-3n;
 	} else {
-		var x1 = (1n << 52n) - 2n;
+		let vlen = value.toString().length;
+		if (vlen%2==0) {
+			var x1 = 10n**(BigInt(vlen/2));
+		} else {
+			var x1 = 4n*10n**(BigInt((vlen)/2));
+		}
 	}
 
 	let x0 = -1n;
