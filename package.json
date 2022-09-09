@@ -27,13 +27,13 @@
     "isqrt",
     "bigint-sqrt",
     "native bigint",
-	"integer square root",
-	"square root",
-	"integer sqrt"
+    "integer square root",
+    "square root",
+    "integer sqrt"
   ],
   "author": "Ekaterina Momot <y-kate@ukr.net>",
   "contributors": [
-	"Nikolai Avdeev <nickkolok@mail.ru>"
+    "Nikolai Avdeev <nickkolok@mail.ru>"
   ],
   "license": "LGPL-3.0",
   "bugs": {
