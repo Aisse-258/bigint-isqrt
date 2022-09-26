@@ -14,7 +14,7 @@ var sqrt = function (value) {
 		if (vlen%2==0) {
 			var x1 = 10n**(BigInt(vlen/2));
 		} else {
-			var x1 = 4n*10n**(BigInt((vlen)/2));
+			var x1 = 4n*10n**(BigInt(Math.floor(vlen/2)));
 		}
 	}
 
